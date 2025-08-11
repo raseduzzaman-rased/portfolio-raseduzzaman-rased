@@ -3,7 +3,7 @@ import React from "react";
 const HeroSection = () => {
   return (
     <section
-      className="min-h-screen max-w-7xl mx-auto px-20 flex flex-col-reverse md:flex-row items-center md:items-center justify-between"
+      className="min-h-screen max-w-7xl mx-auto px-16 flex flex-col-reverse md:flex-row items-center md:items-center justify-between"
       style={{ backgroundColor: "#2c2523" }}
     >
       {/* Left text */}
@@ -11,7 +11,7 @@ const HeroSection = () => {
         <h3 className="text-lg md:text-xl font-semibold text-cyan-400 mb-2">
           Full Stack Web Developer
         </h3>
-        <h1 className=" text-3xl md:text-6xl font-extrabold leading-tight mb-4">
+        <h1 className=" text-3xl md:text-5xl font-extrabold leading-tight mb-4">
           Raseduzzaman <br /> Rased
         </h1>
         <p className="text-lg mb-8 max-w-lg mx-auto md:mx-0 text-gray-300">
