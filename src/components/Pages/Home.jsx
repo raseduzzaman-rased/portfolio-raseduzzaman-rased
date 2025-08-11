@@ -6,7 +6,7 @@ const Home = () => {
     return (
         <div>
             <Navbar></Navbar>
-           <div className='py-48 md:py-16'>
+           <div className='pt-48 md:py-16'>
              <HeroSection></HeroSection>
            </div>
         </div>
