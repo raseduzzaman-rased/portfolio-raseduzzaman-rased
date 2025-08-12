@@ -17,7 +17,7 @@ const experiences = [
   },
   {
     company: "DMLC IT Institute",
-    role: "Mentor",
+    role: "Mentor, Digital Marketing",
     duration: "May 2022 – March 2024",
     location: "Uttara, Dhaka",
     tools: ["Facebook Business Manager, Google Ad Account, Youtube GMC, Zoom, "],

@@ -31,7 +31,11 @@ const projects = [
 const ProjectsSection = () => {
   return (
     <section id="projects" className="max-w-7xl mx-auto py-16 px-4 sm:px-16 lg:px-24 bg-[#2c2523] text-white">
-      <h2 className="text-4xl font-bold text-cyan-400 mb-10 text-center">My Projects</h2>
+      <h2 className="text-4xl font-bold text-cyan-400 mb-6 text-center">My Projects</h2>
+      <p className="text-center text-gray-300 max-w-3xl mx-auto mb-10">
+  Here are some of the projects I have worked on recently, showcasing my skills in web development and design.  
+  Each project highlights a unique challenge and solution.
+</p>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
         {projects.map(({ title, image, description, tech, liveLink, codeLink }, index) => (
           <div key={index} className="bg-[#3a3230] rounded-lg p-5 shadow-lg hover:shadow-[#fb9718]/50 transition-shadow duration-300">
