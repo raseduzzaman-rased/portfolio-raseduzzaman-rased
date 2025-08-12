@@ -91,18 +91,17 @@ const Navbar = () => {
 
               {/* Download CV Button */}
               <div className="px-4 pb-4">
-                 <a
-    href="https://drive.google.com/drive/u/0/folders/1j0el8mAVkH4eGy-ezNQipquchB60s_A5"
-    target="_blank"
-    rel="noopener noreferrer"
-  >
-                
-                <button
-                  onClick={() => setMenuOpen(false)}
-                  className="w-full px-4 py-2 rounded-full text-lg font-bold text-black border border-cyan-400 flex items-center justify-center gap-1 bg-gradient-to-r from-cyan-400 to-[#fb9718] hover:border-[#fb9718] hover:shadow-[0_0_20px_rgba(94,206,220,0.5)] hover:scale-105 transition-all duration-300"
+                <a
+                  href="https://drive.google.com/drive/u/0/folders/1j0el8mAVkH4eGy-ezNQipquchB60s_A5"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
-                  Download CV <LuArrowDownRight />
-                </button>
+                  <button
+                    onClick={() => setMenuOpen(false)}
+                    className="w-full px-4 py-2 rounded-full text-lg font-bold text-black border border-cyan-400 flex items-center justify-center gap-1 bg-gradient-to-r from-cyan-400 to-[#fb9718] hover:border-[#fb9718] hover:shadow-[0_0_20px_rgba(94,206,220,0.5)] hover:scale-105 transition-all duration-300"
+                  >
+                    Download CV <LuArrowDownRight />
+                  </button>
                 </a>
               </div>
             </div>
@@ -129,18 +128,17 @@ const Navbar = () => {
         </ul>
 
         {/* Desktop Download CV Button */}
-      <div className="hidden lg:flex">
-  <a
-    href="https://drive.google.com/drive/u/0/folders/1j0el8mAVkH4eGy-ezNQipquchB60s_A5"
-    target="_blank"
-    rel="noopener noreferrer"
-  >
-    <button className="px-6 py-2 rounded-full text-lg font-bold text-black border border-cyan-400 flex items-center gap-1 bg-gradient-to-r from-cyan-400 to-[#fb9718] hover:border-[#fb9718] hover:shadow-[0_0_20px_rgba(94,206,220,0.5)] hover:scale-110 transition-all duration-500">
-      Download CV <LuArrowDownRight />
-    </button>
-  </a>
-</div>
-
+        <div className="hidden lg:flex">
+          <a
+            href="https://drive.google.com/drive/u/0/folders/1j0el8mAVkH4eGy-ezNQipquchB60s_A5"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button className="px-6 py-2 rounded-full text-lg font-bold text-black border border-cyan-400 flex items-center gap-1 bg-gradient-to-r from-cyan-400 to-[#fb9718] hover:border-[#fb9718] hover:shadow-[0_0_20px_rgba(94,206,220,0.5)] hover:scale-110 transition-all duration-500">
+              Download CV <LuArrowDownRight />
+            </button>
+          </a>
+        </div>
       </div>
     </div>
   );
