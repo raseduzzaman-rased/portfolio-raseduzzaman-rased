@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-scroll";
+import aboutImage from '..//../assets/about-me.png'
 
 const AboutMe = () => {
   return (
@@ -31,7 +32,7 @@ const AboutMe = () => {
         <div className="flex-1 flex justify-center items-center px-4 sm:px-0">
           <div className="relative w-full max-w-md mx-auto">
             <img
-              src="./src/assets/about-me.png"
+              src={aboutImage}
               alt="Raseduzzaman Rased"
               className="w-full rounded-2xl shadow-lg shadow-[#fb9718]/50"
             />

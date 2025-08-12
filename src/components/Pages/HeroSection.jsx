@@ -1,5 +1,6 @@
 import React from "react";
 import { LuArrowDownRight } from "react-icons/lu";
+import profileImg from '..//../assets/portfolio-img1.png'
 
 const HeroSection = () => {
   return (
@@ -39,8 +40,9 @@ const HeroSection = () => {
 
         {/* Image container */}
         <div className="relative w-60 h-60 md:w-72 md:h-72 rounded-full overflow-hidden shadow-lg ring-8 ring-cyan-400 ring-opacity-50">
+        
           <img
-            src="./src/assets/portfolio-img1.png"
+            src={profileImg}
             alt="Profile"
             className="object-cover w-full h-full"
           />

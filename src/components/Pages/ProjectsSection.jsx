@@ -1,10 +1,13 @@
 import React, { useState } from "react";
 import Modal from "./Modal";
+import project1 from '..//../assets/food-sharing.png'
+import project2 from '..//../assets/blood-donate.png'
+import project3 from '..//../assets/Conference-event.png'
 
 const projects = [
   {
     title: "Food Sharing",
-    image: "./src/assets/food-sharing.png",
+    image: project1,
     description:
       "A React-based web app for sharing available food with others. Users can view available food items, search for specific items, and view detailed information about each food.",
     tech: ["React", "JavaScript", "Tailwind CSS", "MongoDB"],
@@ -18,7 +21,7 @@ Future improvements will focus on push notifications for updates, advanced searc
   },
   {
     title: "Web Blood Donate",
-    image: "./src/assets/blood-donate.png",
+    image: project2,
     description:
       "A MERN stack-based web application to connect blood donors with recipients efficiently, featuring donation requests, blog content, user management, and funding support.",
     tech: ["JavaScript", "React", "Node.js", "MongoDB"],
@@ -34,7 +37,7 @@ Future enhancements may include push notifications, multi-factor authentication,
   },
   {
     title: "Conference Event",
-    image: "./src/assets/Conference-event.png",
+    image: project3,
     description:
       "React single-page application enabling users to explore local conference events, register via email/password, Google sign-in, and access protected event details and user profiles.",
     tech: ["JavaScript", "React", "MongoDB", "Firebase"],
