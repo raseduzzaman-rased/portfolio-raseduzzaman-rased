@@ -4,6 +4,7 @@ import { Link } from "react-scroll";
 
 const links = [
   { link: "About Me", section: "about" },
+  { link: "Qualification", section: "education" },
   { link: "Skills", section: "skills" },
   { link: "Experience", section: "experience" },
   { link: "Projects", section: "projects" },
@@ -102,7 +103,7 @@ const Navbar = () => {
         </div>
 
         {/* Desktop Menu */}
-        <ul className="hidden lg:flex flex-row gap-6 text-white font-body">
+        <ul className="hidden lg:flex flex-row gap-2 text-white font-body">
           {links.map((link, index) => (
             <li key={index} className="group text-center lg:text-left">
               <Link
