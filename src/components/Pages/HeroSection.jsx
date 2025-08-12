@@ -40,7 +40,7 @@ const HeroSection = () => {
         {/* Image container */}
         <div className="relative w-60 h-60 md:w-72 md:h-72 rounded-full overflow-hidden shadow-lg ring-8 ring-cyan-400 ring-opacity-50">
           <img
-            src="/src/assets/portfolio-img1.png"
+            src="./src/assets/portfolio-img1.png"
             alt="Profile"
             className="object-cover w-full h-full"
           />
