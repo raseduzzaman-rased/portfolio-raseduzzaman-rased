@@ -1,10 +1,11 @@
 import React from "react";
+import { Link } from "react-scroll";
 
 const AboutMe = () => {
   return (
     <section
       id="about"
-      className="max-w-7xl mx-auto py-16 bg-[#2c2523] text-white px-8 sm:px-16 lg:px-24"
+      className="max-w-7xl mx-auto py-16 bg-[rgb(44,37,35)] text-white px-2 sm:px-16 lg:px-24"
     >
       <div className="flex flex-col md:flex-row items-center md:items-stretch gap-6">
         {/* Left Text */}
@@ -19,9 +20,15 @@ const AboutMe = () => {
             learning new skills. Dedicated to creating efficient, scalable, and
             beautiful applications. Let's build something great together!
           </p>
-          <button className="w-full md:w-[170px] px-6 py-2 rounded-full text-white font-semibold border-2 border-[#fb9718] hover:bg-[#fb9718] hover:text-black transition-colors duration-300">
+        <Link
+            to="projects"       
+            smooth={true}
+            duration={500}
+        
+            className="w-full md:w-[170px] px-6 py-2 rounded-full text-white font-semibold border-2 border-[#fb9718] hover:bg-[#fb9718] hover:text-black transition-colors duration-300 cursor-pointer inline-block text-center"
+          >
             Explore Projects
-          </button>
+          </Link>
         </div>
 
         {/* Right Image */}

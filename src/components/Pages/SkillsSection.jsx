@@ -43,14 +43,14 @@ const SkillsSection = () => {
         applications.
       </p>
 
-      <div className="flex flex-wrap justify-center gap-4 md:gap-10 mx-auto">
+      <div className="flex flex-wrap justify-center gap-4 md:gap-10 mx-auto ">
         {skills.map(({ icon, name }, idx) => (
           <div
             key={idx}
-            className="group flex flex-col items-center cursor-pointer"
+            className="group flex flex-col items-center cursor-pointer "
             title={name}
           >
-            <div className="text-cyan-400 hover:text-orange-400 transition-colors duration-300">
+            <div className="text-cyan-400 shadow-sm shadow-cyan-400 hover:shadow-orange-400 p-2 hover:text-orange-400 transition-colors duration-300">
               {icon}
             </div>
             <span className="mt-2 text-sm text-transparent group-hover:text-white transition-colors duration-300">
