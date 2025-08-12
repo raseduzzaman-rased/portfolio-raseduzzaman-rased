@@ -38,7 +38,7 @@ const EducationSection = () => {
         Through continuous learning and dedication, I have equipped myself with the knowledge and skills necessary to excel in the tech industry.
       </p>
 
-    <div className="grid grid-cols-1 md:grid-cols-2 items-center">
+    <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-8">
           <div className="relative border-l-4 border-cyan-400 ml-6 pl-8 space-y-12">
         {educations.map(({ degree, institution, duration, location }, index) => (
           <div key={index} className="relative">
