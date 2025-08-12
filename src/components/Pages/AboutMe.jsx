@@ -14,11 +14,7 @@ const AboutMe = () => {
             About Me
           </h1>
           <p className="text-lg leading-relaxed mb-6 text-justify">
-            I am a passionate Full Stack Web Developer focused on building
-            amazing web experiences. Skilled in React, Node.js, and modern web
-            technologies. I enjoy solving complex problems and continuously
-            learning new skills. Dedicated to creating efficient, scalable, and
-            beautiful applications. Let's build something great together!
+           I’m a passionate Full Stack Web Developer who started my coding journey with curiosity and turned it into a profession. I love building modern, user-friendly web applications using React, Node.js, and other cutting-edge technologies. Problem-solving excites me, and I’m always eager to learn new skills. Outside of coding, I enjoy sports and exploring creative ideas. My goal is to create efficient, scalable, and visually appealing digital experiences.
           </p>
         <Link
             to="projects"       

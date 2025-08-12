@@ -46,7 +46,7 @@ const ProjectsSection = () => {
               {tech.map((techItem, i) => (
                 <span
                   key={i}
-                  className="inline-block bg-cyan-500 text-black text-xs font-semibold px-1.5 py-1 mr-2 rounded"
+                  className="inline-block bg-cyan-500 text-black text-xs font-semibold px-1.5 py-1 mr-2 rounded my-2"
                 >
                   {techItem}
                 </span>
