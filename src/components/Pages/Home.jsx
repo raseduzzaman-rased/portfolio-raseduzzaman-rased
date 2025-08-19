@@ -9,6 +9,7 @@ import ProjectsSection from "./ProjectsSection";
 import EducationSection from "./EducationSection";
 import Contact from "./Contact";
 import Footer from "./Footer";
+import ScrollToTopButton from "./ScrollToTopButton";
 
 const Home = () => {
   return (
@@ -24,6 +25,7 @@ const Home = () => {
       <ProjectsSection></ProjectsSection>
       <Contact></Contact>
       <Footer></Footer>
+      <ScrollToTopButton></ScrollToTopButton>
     </div>
   );
 };

@@ -92,7 +92,7 @@ const Navbar = () => {
               {/* Download CV Button */}
               <div className="px-4 pb-4">
                 <a
-                  href="https://drive.google.com/drive/u/0/folders/1j0el8mAVkH4eGy-ezNQipquchB60s_A5"
+                  href="https://drive.google.com/file/d/1vvtqOzSpUnMfCAGfaMA7pf0Om6H5-Uqj/view?usp=sharing"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -130,7 +130,7 @@ const Navbar = () => {
         {/* Desktop Download CV Button */}
         <div className="hidden lg:flex">
           <a
-            href="https://drive.google.com/drive/u/0/folders/1j0el8mAVkH4eGy-ezNQipquchB60s_A5"
+            href="https://drive.google.com/file/d/1vvtqOzSpUnMfCAGfaMA7pf0Om6H5-Uqj/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
           >
